@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CodeWithEshaal - Custom Websites & Development</title>
+    <meta name="description" content="Professional web design & development services in [Your Location]. We create high-performance, SEO-optimized websites that drive results. Get a free consultation today.">
+    <meta name="keywords" content="web design, web development, ecommerce websites, SEO services, custom websites, responsive design">
+    <meta name="author" content="CodeWithEshaal">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.codewitheshaal.com" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Premium Web Design Agency | CodeWithEshaal">
+    <meta property="og:description" content="Professional web design & development services. We create high-performance, SEO-optimized websites that drive results.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.codewitheshaal.com">
+    <meta property="og:image" content="https://www.codewitheshaal.com/images/social-preview.jpg">
+    <meta property="og:site_name" content="CodeWithEshaal">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Premium Web Design Agency | CodeWithEshaal">
+    <meta name="twitter:description" content="Professional web design & development services. We create high-performance, SEO-optimized websites that drive results.">
+    <meta name="twitter:image" content="https://www.codewitheshaal.com/images/social-preview.jpg">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "CodeWithEshaal",
+      "image": "https://www.codewitheshaal.com/images/logo.jpg",
+      "@id": "https://www.codewitheshaal.com",
+      "url": "https://www.codewitheshaal.com",
+      "telephone": "+1234567890",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "Your City",
+        "addressRegion": "Your State",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/codewitheshaal",
+        "https://www.twitter.com/codewitheshaal",
+        "https://www.linkedin.com/company/codewitheshaal",
+        "https://www.instagram.com/codewitheshaal"
+      ]
+    }
+    </script>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" as="image">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===== BASE STYLES & VARIABLES ===== */
+        :root {
+            --ds-dark: #0b0c13;
+            --ds-blue: #3d64ff;
+            --ds-blue-dark: #2a4bcc;
+            --ds-text: #ffffff;
+            --ds-gray: #e0e0e0;
+            --ds-light-gray: #f8f9fa;
+            --ds-white: #ffffff;
+            --ds-gradient: linear-gradient(135deg, #3a7bd5, #00d2ff);
+            --ds-gradient-dark: linear-gradient(135deg, #2a5ba5, #0099cc);
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 15px 25px rgba(0, 0, 0, 0.15);
+            --border-radius: 12px;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--ds-dark);
+            color: var(--ds-text);
+            overflow-x: hidden;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--ds-white);
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.75em;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--ds-gray);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        /* ===== UTILITY CLASSES ===== */
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 32px;
+            background: var(--ds-gradient);
+            color: var(--ds-white);
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--ds-gradient-dark);
+            z-index: -1;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .btn:hover::before {
+            opacity: 1;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            margin-bottom: 3rem;
+            color: var(--ds-white);
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background: var(--ds-gradient);
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        .text-gradient {
+            background: var(--ds-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* ===== FULLSCREEN BACKGROUND ===== */
+        .ds-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .ds-background img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.3;
+        }
+
+        /* ===== MAIN LAYOUT ===== */
+        .ds-container {
+            display: flex;
+            min-height: 100vh;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* ===== TEXT PANEL ===== */
+        .ds-text-panel {
+            width: 50%;
+            padding: 0 5% 0 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 20;
+            background: linear-gradient(
+                to right,
+                rgba(15, 16, 24, 0.97) 0%,
+                rgba(15, 16, 24, 0.97) 60%,
+                transparent 100%
+            );
+        }
+
+        .ds-small-heading {
+            color: var(--ds-blue);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            margin-bottom: 1.25rem;
+            font-weight: 600;
+        }
+
+        .ds-main-heading {
+            font-size: 4.5rem;
+            line-height: 1.1;
+            font-weight: 700;
+            margin: 0 0 1.25rem 0;
+            letter-spacing: -1px;
+            min-height: 5.375rem;
+            overflow: hidden;
+            color: var(--ds-white);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .ds-main-heading .cursor {
+            display: inline-block;
+            width: 3px;
+            height: 5rem;
+            background-color: var(--ds-blue);
+            animation: blink 0.8s infinite;
+            margin-left: 5px;
+            vertical-align: middle;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .ds-sub-heading {
+            color: var(--ds-gray);
+            font-size: 1.125rem;
+            line-height: 1.6;
+            max-width: 80%;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+
+        /* ===== IMAGE SIDE ===== */
+        .ds-image-side {
+            width: 50%;
+            position: relative;
+            z-index: 15;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-image {
+            max-width: 80%;
+            height: auto;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+            transform: perspective(1000px) rotateY(-10deg);
+            transition: var(--transition);
+            opacity: 0.9;
+        }
+
+        .hero-image:hover {
+            transform: perspective(1000px) rotateY(0deg);
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        /* ===== NAVIGATION ===== */
+        .ds-navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.875rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            background: transparent;
+            transition: var(--transition);
+        }
+        
+        .ds-navbar.scrolled {
+            background: rgba(11, 12, 19, 0.98);
+            backdrop-filter: blur(10px);
+            padding: 1.25rem 5%;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .ds-logo-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+        
+        .ds-logo-text i {
+            color: var(--ds-blue);
+        }
+        
+        .ds-menu-btn {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--ds-white);
+            font-size: 0.8125rem;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 0.625rem 0.9375rem;
+            border-radius: 4px;
+            display: block;
+            transition: var(--transition);
+        }
+
+        .ds-menu-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* ===== MOBILE MENU ===== */
+        .ds-menu-panel {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            max-width: 320px;
+            height: 100vh;
+            background: rgba(11, 12, 19, 0.98);
+            backdrop-filter: blur(15px);
+            padding: 6.25rem 8% 3.75rem;
+            transition: right 0.4s ease-out;
+            z-index: 90;
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .ds-menu-panel.active {
+            right: 0;
+        }
+        
+        .ds-menu-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        
+        .ds-menu-link {
+            color: var(--ds-white);
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 0.75rem 0;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .ds-menu-link::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--ds-gradient);
+            transition: var(--transition);
+        }
+        
+        .ds-menu-link:hover::before {
+            width: 100%;
+        }
+        
+        .ds-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 80;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .ds-menu-overlay.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+        
+        .no-scroll {
+            overflow: hidden;
+        }
+
+        /* ===== SERVICES SECTION ===== */
+        .ds-services {
+            padding: 5rem 0;
+            background-color: var(--ds-dark);
+            position: relative;
+            z-index: 20;
+        }
+
+        .services-container {
+            text-align: center;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+            padding: 2.5rem 1.875rem;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: var(--shadow-lg);
+            border-color: transparent;
+        }
+
+        .service-card i {
+            font-size: 2.5rem;
+            margin-bottom: 1.25rem;
+            background: var(--ds-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--ds-white);
+        }
+
+        .service-card p {
+            color: var(--ds-gray);
+            line-height: 1.6;
+            font-size: 1rem;
+            max-width: 280px;
+            margin: 0 auto;
+        }
+
+        /* ===== PORTFOLIO SECTION ===== */
+        .ds-portfolio {
+            padding: 5rem 0;
+            background-color: rgba(11, 12, 19, 0.9);
+            text-align: center;
+            position: relative;
+        }
+
+        .portfolio-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .portfolio-header {
+            margin-bottom: 3rem;
+            width: 100%;
+        }
+
+        .portfolio-cta {
+            margin-top: 2rem;
+        }
+
+        /* ===== TESTIMONIALS SECTION ===== */
+        .ds-testimonials {
+            padding: 5rem 0;
+            background-color: var(--ds-dark);
+            position: relative;
+        }
+
+        .testimonials-container {
+            text-align: center;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: left;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 4rem;
+            color: rgba(255, 255, 255, 0.05);
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: var(--shadow-md);
+        }
+
+        .testimonial-content {
+            margin-bottom: 1.5rem;
+            color: var(--ds-gray);
+            font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--ds-blue);
+        }
+
+        .author-info h4 {
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+            color: var(--ds-white);
+        }
+
+        .author-info p {
+            font-size: 0.875rem;
+            color: var(--ds-gray);
+            margin-bottom: 0;
+        }
+
+        /* ===== CONTACT SECTION ===== */
+        .ds-contact {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, rgba(11, 12, 19, 0.95), rgba(22, 23, 34, 0.95));
+            position: relative;
+            text-align: center;
+        }
+
+        .ds-contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 70% 20%, rgba(61, 100, 255, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .contact-options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 500px;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            cursor: pointer;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(61, 100, 255, 0.3);
+        }
+
+        .contact-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--ds-white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        .contact-card h3 i {
+            color: var(--ds-blue);
+        }
+
+        .contact-email {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(61, 100, 255, 0.1);
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            transition: var(--transition);
+            color: var(--ds-white);
+            text-decoration: none;
+            font-weight: 500;
+            border: 1px solid rgba(61, 100, 255, 0.3);
+        }
+
+        .contact-email:hover {
+            background: rgba(61, 100, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .contact-email i {
+            color: var(--ds-blue);
+        }
+
+        .contact-divider {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            color: var(--ds-gray);
+            font-size: 0.875rem;
+        }
+
+        .contact-divider::before,
+        .contact-divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* ===== FOOTER ===== */
+        .ds-footer {
+            padding: 3rem 0;
+            background-color: rgba(11, 12, 19, 0.95);
+            position: relative;
+            z-index: 10;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .footer-link {
+            color: var(--ds-gray);
+            transition: var(--transition);
+        }
+
+        .footer-link:hover {
+            color: var(--ds-blue);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            color: var(--ds-gray);
+        }
+
+        .social-link:hover {
+            background: var(--ds-gradient);
+            color: var(--ds-white);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            color: var(--ds-gray);
+            font-size: 0.875rem;
+        }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.8s ease forwards;
+        }
+
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        .delay-4 { animation-delay: 0.8s; }
+
+        /* ===== MOBILE STYLES ===== */
+        @media (max-width: 1024px) {
+            .ds-main-heading {
+                font-size: 3.75rem;
+                min-height: 4.5rem;
+            }
+            
+            .hero-image {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .ds-container {
+                flex-direction: column;
+            }
+            
+            .ds-text-panel {
+                width: 100%;
+                padding: 7.5rem 8% 5rem;
+                background: rgba(11, 12, 19, 0.97);
+                text-align: center;
+                align-items: center;
+            }
+            
+            .ds-image-side {
+                display: none;
+            }
+            
+            .ds-main-heading {
+                font-size: 3rem;
+                min-height: 3.625rem;
+            }
+            
+            .ds-sub-heading {
+                max-width: 100%;
+            }
+            
+            .section-title {
+                font-size: 2.2rem;
+            }
+            
+            .service-grid, .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .ds-text-panel {
+                padding: 6.25rem 6% 3.75rem;
+                justify-content: flex-end;
+            }
+            
+            .ds-main-heading {
+                font-size: 2.25rem;
+                min-height: 2.75rem;
+            }
+            
+            .ds-small-heading {
+                font-size: 0.6875rem;
+            }
+            
+            .ds-sub-heading {
+                font-size: 0.875rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Full-screen background image -->
+    <div class="ds-background">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Modern workspace with computer setup" loading="lazy">
+    </div>
+
+    <!-- Navigation -->
+    <nav class="ds-navbar">
+        <a href="#" class="ds-logo-text">
+            <i class="fas fa-code"></i>
+            <span>CodeWithEshaal</span>
+        </a>
+        <button class="ds-menu-btn" id="menuBtn" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i> MENU
+        </button>
+    </nav>
+
+    <!-- Menu Panel -->
+    <div class="ds-menu-panel" id="menuPanel">
+        <div class="ds-menu-links">
+            <a href="#services" class="ds-menu-link">Services</a>
+            <a href="#portfolio" class="ds-menu-link">Portfolio</a>
+            <a href="#testimonials" class="ds-menu-link">Testimonials</a>
+            <a href="#contact" class="ds-menu-link">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/codewitheshaal" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/codewitheshaal" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/codewitheshaal" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/codewitheshaal" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="ds-menu-overlay" id="menuOverlay"></div>
+
+    <!-- Hero Section -->
+    <div class="ds-container">
+        <!-- Text Panel -->
+        <div class="ds-text-panel">
+            <div class="ds-small-heading fade-in">PREMIUM WEB DESIGN AGENCY</div>
+            <h1 class="ds-main-heading fade-in delay-1" id="typingHeading"><span class="cursor"></span></h1>
+            <p class="ds-sub-heading fade-in delay-2">We create stunning, high-performance websites that drive results. Our custom solutions combine beautiful design with cutting-edge technology to elevate your online presence.</p>
+            <div class="fade-in delay-3">
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+        
+        <!-- Image Side -->
+        <div class="ds-image-side fade-in delay-2">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Web design process" class="hero-image" loading="lazy">
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="ds-services" id="services">
+        <div class="container services-container">
+            <h2 class="section-title fade-in">Our <span class="text-gradient">Services</span></h2>
+            <div class="service-grid">
+                <div class="service-card fade-in">
+                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom, responsive websites built with the latest technologies for optimal performance across all devices.</p>
+                </div>
+                <div class="service-card fade-in delay-1">
+                    <i class="fas fa-paint-brush" aria-hidden="true"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful, intuitive interfaces designed to enhance user experience and drive engagement.</p>
+                </div>
+                <div class="service-card fade-in delay-1">
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    <h3>E-Commerce</h3>
+                    <p>Powerful online stores designed to convert visitors into loyal customers.</p>
+                </div>
+                <div class="service-card fade-in delay-1">
+                    <i class="fas fa-chart-line" aria-hidden="true"></i>
+                    <h3>SEO</h3>
+                    <p>Search Engine Optimization to improve website visibility and drive organic traffic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="ds-portfolio" id="portfolio">
+        <div class="container portfolio-container">
+            <div class="portfolio-header">
+                <h2 class="section-title fade-in">Our <span class="text-gradient">Portfolio</span></h2>
+                <p class="fade-in delay-1">Explore our recent projects and see how we've helped businesses like yours succeed online.</p>
+            </div>
+            <div class="portfolio-cta fade-in delay-3">
+                <p style="margin-bottom: 1.5rem;">Ready to start your project?</p>
+                <a href="#contact" class="btn">Click here to Start</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="ds-testimonials" id="testimonials">
+        <div class="container testimonials-container">
+            <h2 class="section-title fade-in">Client <span class="text-gradient">Testimonials</span></h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        "CodeWithEshaal transformed our online presence completely. Our website traffic increased by 300% after their redesign and SEO optimization."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John D. - CEO of TechCorp" class="author-avatar" loading="lazy">
+                        <div class="author-info">
+                            <h4>John D.</h4>
+                            <p>CEO of TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in delay-1">
+                    <div class="testimonial-content">
+                        "The e-commerce site they built for us has doubled our sales. Their attention to detail and user experience focus is exceptional."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M. - Founder of StyleHub" class="author-avatar" loading="lazy">
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <p>Founder of StyleHub</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in delay-2">
+                    <div class="testimonial-content">
+                        "Working with CodeWithEshaal was a game-changer for our business. They delivered our project on time and exceeded our expectations."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Michael T. - Marketing Director" class="author-avatar" loading="lazy">
+                        <div class="author-info">
+                            <h4>Michael T.</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="ds-contact" id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title fade-in">Contact <span class="text-gradient">Us</span></h2>
+            <p class="fade-in delay-1" style="max-width: 600px; margin: 0 auto 2rem;">Have a project in mind? Let's collaborate and bring your ideas to life.</p>
+            
+            <div class="contact-options fade-in delay-2">
+                <div class="contact-card">
+                    <h3><i class="fas fa-briefcase" aria-hidden="true"></i> Hire Me on Upwork</h3>
+                    <a href="https://www.upwork.com/freelancers/~01edbdd3d986117755?viewMode=1" target="_blank" rel="noopener noreferrer" class="btn">
+                        View My Upwork Profile
+                    </a>
+                </div>
+                <div class="contact-divider">OR</div>
+                <div class="contact-card">
+                    <h3><i class="fas fa-envelope" aria-hidden="true"></i> Email Me Directly</h3>
+                    <a href="mailto:codewitheshaal@gmail.com" class="contact-email">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> codewitheshaal@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ds-footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>CodeWithEshaal</span>
+                </a>
+                <div class="footer-links">
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#portfolio" class="footer-link">Portfolio</a>
+                    <a href="#testimonials" class="footer-link">Testimonials</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/codewitheshaal" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/codewitheshaal" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/codewitheshaal" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/codewitheshaal" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="copyright">© 2025 CodeWithEshaal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Typing animation - IMPROVED VERSION
+        const typingHeading = document.getElementById('typingHeading');
+        const words = ["We build your Business", "We grow your Business", "We create stunning websites", "Let's collaborate to bring your dreams to life!"];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingDelay = 100;
+        let deletingDelay = 50;
+        let pauseBetweenWords = 1000;
+
+        function type() {
+            const currentWord = words[wordIndex];
+            
+            if (isDeleting) {
+                // Deleting characters
+                typingHeading.innerHTML = currentWord.substring(0, charIndex - 1) + '<span class="cursor"></span>';
+                charIndex--;
+            } else {
+                // Adding characters
+                typingHeading.innerHTML = currentWord.substring(0, charIndex + 1) + '<span class="cursor"></span>';
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentWord.length) {
+                // Word is fully typed, pause then start deleting
+                isDeleting = true;
+                setTimeout(type, pauseBetweenWords);
+            } else if (isDeleting && charIndex === 0) {
+                // Word is fully deleted, move to next word
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                setTimeout(type, typingDelay);
+            } else {
+                // Continue typing/deleting
+                setTimeout(type, isDeleting ? deletingDelay : typingDelay);
+            }
+        }
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const menuPanel = document.getElementById('menuPanel');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const body = document.body;
+
+        menuBtn.addEventListener('click', () => {
+            menuPanel.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+            body.classList.toggle('no-scroll');
+        });
+
+        menuOverlay.addEventListener('click', () => {
+            menuPanel.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            body.classList.remove('no-scroll');
+        });
+
+        // Close menu when clicking on links
+        document.querySelectorAll('.ds-menu-link').forEach(link => {
+            link.addEventListener('click', () => {
+                menuPanel.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                body.classList.remove('no-scroll');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                document.querySelector('.ds-navbar').classList.add('scrolled');
+            } else {
+                document.querySelector('.ds-navbar').classList.remove('scrolled');
+            }
+        });
+
+        // Start typing animation
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(type, 1000);
+            
+            // Track outbound links
+            document.querySelectorAll('a[href^="http"]').forEach(link => {
+                if (link.hostname !== window.location.hostname) {
+                    link.addEventListener('click', function(e) {
+                        // You can add analytics tracking here
+                        console.log('Outbound link clicked:', this.href);
+                    });
+                }
+            });
+        });
+    </script>
+    
+    <!-- Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CodeWithEshaal",
+      "image": "https://www.codewitheshaal.com/images/logo.jpg",
+      "@id": "https://www.codewitheshaal.com",
+      "url": "https://www.codewitheshaal.com",
+      "telephone": "+1234567890",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "Your City",
+        "addressRegion": "Your State",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/codewitheshaal",
+        "https://www.twitter.com/codewitheshaal",
+        "https://www.linkedin.com/company/codewitheshaal",
+        "https://www.instagram.com/codewitheshaal"
+      ]
+    }
+    </script>
+</body>
+</html>
