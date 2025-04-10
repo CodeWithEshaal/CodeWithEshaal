@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Index - Explore Our Latest Blogs</title>
+
+  <!-- AOS Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffafc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .blog-section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .blog-section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      color: #444;
+    }
+
+    .blog-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0.98;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      color: #fff;
+      background-color: #222;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: background 0.3s ease;
+    }
+
+    .card a:hover {
+      background-color: #444;
+    }
+
+    .blue { border-left: 8px solid #00aaff; }
+    .pink { border-left: 8px solid #ff69b4; }
+    .yellow { border-left: 8px solid #ffcc00; }
+    .purple { border-left: 8px solid #9b59b6; }
+    .orange { border-left: 8px solid #ff8800; }
+
+    @media (max-width: 600px) {
+      .blog-section {
+        padding: 40px 10px;
+      }
+
+      .card {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <a href="SEO.html" class="button-link">X</a>
+
+    <style>
+      .button-link {
+        display: inline-block;
+        background-color: rgb(255, 185, 185);
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    
+      .button-link:hover {
+        background-color: rgb(255, 150, 150); /* Add hover effect */
+      }
+    </style>
+    
+    
+  <!-- Blog Section -->
+  <section class="blog-section" id="blogs">
+    <h2>📚 Explore Our Latest Blogs</h2>
+    <div class="blog-cards">
+      <div class="card blue" data-aos="fade-up">
+        <h3>$100 Website Offer – Just $100</h3>
+        <p>Get a fully custom 8-page site for your business or portfolio – only $100.</p>
+        <a href="blog1.html">Read More</a>
+      </div>
+
+      <div class="card pink" data-aos="fade-up" data-aos-delay="100">
+        <h3>Why Every Business Needs a Website in 2025</h3>
+        <p>Digital presence isn’t optional anymore. Learn how to build one easily.</p>
+        <a href="blog2.html">Read More</a>
+      </div>
+
+      <div class="card yellow" data-aos="fade-up" data-aos-delay="200">
+        <h3>Why Learn Web Dev in 2025?</h3>
+        <p>Learn how web development skills can transform your future.</p>
+        <a href="blog3.html">Read More</a>
+      </div>
+
+      <div class="card purple" data-aos="fade-up" data-aos-delay="300">
+        <h3>Top Front-End Tools to Learn in 2025</h3>
+        <p>The latest tools & frameworks to boost your front-end skills.</p>
+        <a href="blog4.html">Read More</a>
+      </div>
+
+      <div class="card orange" data-aos="fade-up" data-aos-delay="400">
+        <h3>Front-End vs Back-End in 2025</h3>
+        <p>What’s the difference and which one should you master?</p>
+        <a href="blog5.html">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+</body>
+</html>
