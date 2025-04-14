@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>CodeWithEshaal - Custom Websites & Development</title>
   <meta name="description" content="Professional web design & development services in Madinat al Jafr, Saudi Arabia. We create high-performance, SEO-optimized websites that drive results.">
   <meta name="keywords" content="web design, web development, CodeWithEshaal, Madinat al Jafr, SEO services, custom websites, Saudi Arabia web developer">
@@ -13,6 +10,7 @@
 
   <link rel="canonical" href="https://www.codewitheshaal.com" />
   <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- Open Graph -->
   <meta property="og:title" content="CodeWithEshaal - Custom Websites & Development" />
@@ -61,13 +59,557 @@
     ]
   }
   </script>
+  
+  <style>
+    /* Dark Theme Styles */
+    :root {
+      --primary: #6e8efb;
+      --secondary: #a777e3;
+      --dark: #121212;
+      --darker: #0a0a0a;
+      --dark-light: #1e1e1e;
+      --text: #e0e0e0;
+      --text-light: #b0b0b0;
+      --text-lighter: #888;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--dark);
+      overflow-x: hidden;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    /* Utility Classes */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .text-gradient {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      position: relative;
+      color: var(--text);
+    }
+    
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      margin: 15px auto;
+      border-radius: 2px;
+    }
+    
+    /* Background */
+    .ds-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    
+    .ds-background img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.3);
+    }
+    
+    /* Navbar */
+    .ds-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      transition: all 0.3s ease;
+      background-color: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(10px);
+    }
+    
+    .ds-navbar.scrolled {
+      padding: 15px 40px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .ds-logo-text {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+    }
+    
+    .ds-logo-text i {
+      margin-right: 10px;
+      color: var(--primary);
+    }
+    
+    .ds-menu-btn {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .ds-menu-btn i {
+      font-size: 1.2rem;
+    }
+    
+    /* Menu Panel */
+    .ds-menu-panel {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 300px;
+      height: 100vh;
+      background-color: var(--dark-light);
+      z-index: 1000;
+      transition: right 0.3s ease;
+      padding: 80px 30px;
+      box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .ds-menu-panel.active {
+      right: 0;
+    }
+    
+    .ds-menu-links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .ds-menu-link {
+      font-size: 1.1rem;
+      color: var(--text);
+      transition: color 0.3s ease;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--darker);
+    }
+    
+    .ds-menu-link:hover {
+      color: var(--primary);
+    }
+    
+    .social-links {
+      display: flex;
+      gap: 15px;
+      margin-top: 40px;
+    }
+    
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--darker);
+      color: var(--text);
+      transition: all 0.3s ease;
+    }
+    
+    .social-link:hover {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      transform: translateY(-3px);
+    }
+    
+    .ds-menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+    
+    .ds-menu-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .no-scroll {
+      overflow: hidden;
+    }
+    
+    /* Hero Section */
+    .ds-container {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      padding: 100px 40px 60px;
+      color: white;
+    }
+    
+    .ds-text-panel {
+      flex: 1;
+      padding-right: 40px;
+      max-width: 600px;
+    }
+    
+    .ds-image-side {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .ds-small-heading {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 20px;
+    }
+    
+    .ds-main-heading {
+      font-size: 3.5rem;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      font-weight: 800;
+      color: white;
+    }
+    
+    .ds-sub-heading {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .hero-image {
+      border-radius: 10px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Services Section */
+    .ds-services {
+      padding: 100px 0;
+      background-color: var(--darker);
+    }
+    
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+    
+    .service-card {
+      background: var(--dark-light);
+      border-radius: 10px;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+      border-color: rgba(110, 142, 251, 0.3);
+    }
+    
+    .service-card i {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .service-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: white;
+    }
+    
+    .service-card p {
+      color: var(--text-light);
+    }
+    
+    /* Portfolio Section */
+    .ds-portfolio {
+      padding: 100px 0;
+      background-color: var(--dark);
+    }
+    
+    .portfolio-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .portfolio-cta {
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    /* Contact Section */
+    .ds-contact {
+      padding: 100px 0;
+      background-color: var(--darker);
+    }
+    
+    .contact-options {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 50px;
+    }
+    
+    .contact-card {
+      text-align: center;
+      padding: 40px;
+      border-radius: 10px;
+      background: var(--dark-light);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      flex: 1;
+      min-width: 300px;
+      max-width: 400px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    .contact-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: white;
+    }
+    
+    .contact-card h3 i {
+      color: var(--primary);
+    }
+    
+    .contact-divider {
+      color: var(--text-light);
+      font-weight: bold;
+    }
+    
+    .contact-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+    
+    .contact-email:hover {
+      color: var(--secondary);
+    }
+    
+    /* Footer */
+    .ds-footer {
+      background-color: var(--darker);
+      color: white;
+      padding: 60px 0 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    
+    .footer-logo i {
+      color: var(--primary);
+      margin-right: 10px;
+    }
+    
+    .footer-links {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .footer-link {
+      transition: color 0.3s ease;
+    }
+    
+    .footer-link:hover {
+      color: var(--primary);
+    }
+    
+    .copyright {
+      margin-top: 30px;
+      color: var(--text-lighter);
+      font-size: 0.9rem;
+    }
+    
+    /* Animations */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 0.8s ease forwards;
+    }
+    
+    .delay-1 {
+      animation-delay: 0.2s;
+    }
+    
+    .delay-2 {
+      animation-delay: 0.4s;
+    }
+    
+    .delay-3 {
+      animation-delay: 0.6s;
+    }
+    
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .cursor {
+      display: inline-block;
+      width: 3px;
+      height: 1em;
+      background: white;
+      vertical-align: middle;
+      margin-left: 3px;
+      animation: blink 1s infinite;
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 992px) {
+      .ds-container {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 120px;
+      }
+      
+      .ds-text-panel {
+        padding-right: 0;
+        margin-bottom: 50px;
+      }
+      
+      .ds-main-heading {
+        font-size: 2.8rem;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .ds-navbar {
+        padding: 15px 20px;
+      }
+      
+      .ds-main-heading {
+        font-size: 2.2rem;
+      }
+      
+      .section-title {
+        font-size: 2rem;
+      }
+      
+      .contact-options {
+        flex-direction: column;
+      }
+      
+      .contact-divider {
+        margin: 20px 0;
+      }
+    }
+  </style>
 </head>
 
+<!-- [Rest of your HTML body remains exactly the same as before] -->
 <body>
     <!-- Full-screen background image -->
     <div class="ds-background">
         <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
-            alt="Modern workspace with computer setup" loading="lazy">
+            alt="Modern workspace with computer setup" loading="lazy" width="1920" height="1080">
     </div>
 
     <!-- Navigation -->
@@ -91,9 +633,6 @@
             <a href="#contact" class="ds-menu-link">Contact</a>
         </div>
         <div class="social-links">
-            <!-- <a href="https://www.facebook.com/codewitheshaal" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.twitter.com/codewitheshaal" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/codewitheshaal" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
             <a href="https://www.linkedin.com/company/codewitheshaal" class="social-link" aria-label="LinkedIn"><i
                     class="fab fa-linkedin-in"></i></a>
         </div>
@@ -119,7 +658,7 @@
         <!-- Image Side -->
         <div class="ds-image-side fade-in delay-2">
             <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="Web design process" class="hero-image" loading="lazy">
+                alt="Web design process" class="hero-image" loading="lazy" width="800" height="600">
         </div>
     </div>
 
@@ -203,16 +742,9 @@
                 <div class="footer-links">
                     <a href="#services" class="footer-link">Services</a>
                     <a href="#portfolio" class="footer-link">Portfolio</a>
-                    <a href="#testimonials" class="footer-link">Testimonials</a>
                     <a href="#contact" class="footer-link">Contact</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://www.facebook.com/codewitheshaal" class="social-link" aria-label="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com/codewitheshaal" class="social-link" aria-label="Twitter"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/codewitheshaal" class="social-link" aria-label="Instagram"><i
-                            class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/company/codewitheshaal" class="social-link"
                         aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 </div>
@@ -311,51 +843,5 @@
             });
         });
     </script>
-
-    <!-- Structured Data for Local Business -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "CodeWithEshaal",
-      "image": "https://www.codewitheshaal.com/images/logo.jpg",
-      "@id": "https://www.codewitheshaal.com",
-      "url": "https://www.codewitheshaal.com",
-      "telephone": "+1234567890",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "123 Main St",
-        "addressLocality": "Your City",
-        "addressRegion": "Your State",
-        "postalCode": "12345",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7128,
-        "longitude": -74.0060
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "opens": "09:00",
-        "closes": "17:00"
-      },
-      "sameAs": [
-        "https://www.facebook.com/codewitheshaal",
-        "https://www.twitter.com/codewitheshaal",
-        "https://www.linkedin.com/company/codewitheshaal",
-        "https://www.instagram.com/codewitheshaal"
-      ]
-    }
-    </script>
 </body>
-
 </html>
