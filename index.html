@@ -61,10 +61,10 @@
   </script>
   
   <style>
-    /* Dark Theme Styles */
+    /* Dark Theme with Original Blue Color Scheme */
     :root {
-      --primary: #6e8efb;
-      --secondary: #a777e3;
+      --primary: #2962ff; /* Your original blue */
+      --secondary: #2962ff; /* Same blue for single color scheme */
       --dark: #121212;
       --darker: #0a0a0a;
       --dark-light: #1e1e1e;
@@ -90,6 +90,7 @@
     img {
       max-width: 100%;
       height: auto;
+      transition: all 0.3s ease;
     }
     
     a {
@@ -108,7 +109,7 @@
     .btn {
       display: inline-block;
       padding: 12px 30px;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      background: var(--primary);
       color: white;
       border-radius: 50px;
       font-weight: 600;
@@ -124,10 +125,7 @@
     }
     
     .text-gradient {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+      color: var(--primary);
     }
     
     .section-title {
@@ -143,7 +141,7 @@
       display: block;
       width: 80px;
       height: 4px;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      background: var(--primary);
       margin: 15px auto;
       border-radius: 2px;
     }
@@ -269,7 +267,7 @@
     }
     
     .social-link:hover {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      background: var(--primary);
       color: white;
       transform: translateY(-3px);
     }
@@ -345,6 +343,15 @@
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
       max-width: 100%;
       height: auto;
+      transition: all 0.5s ease;
+      position: relative;
+      z-index: 1;
+    }
+    
+    /* Image Hover Effect */
+    .ds-image-side:hover .hero-image {
+      transform: scale(1.05);
+      box-shadow: 0 30px 60px rgba(41, 98, 255, 0.3);
     }
     
     /* Services Section */
@@ -372,17 +379,14 @@
     
     .service-card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-      border-color: rgba(110, 142, 251, 0.3);
+      box-shadow: 0 15px 40px rgba(41, 98, 255, 0.2);
+      border-color: rgba(41, 98, 255, 0.3);
     }
     
     .service-card i {
       font-size: 2.5rem;
       margin-bottom: 20px;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+      color: var(--primary);
     }
     
     .service-card h3 {
@@ -468,7 +472,7 @@
     }
     
     .contact-email:hover {
-      color: var(--secondary);
+      color: var(--text);
     }
     
     /* Footer */
@@ -604,7 +608,6 @@
   </style>
 </head>
 
-<!-- [Rest of your HTML body remains exactly the same as before] -->
 <body>
     <!-- Full-screen background image -->
     <div class="ds-background">
