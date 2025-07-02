@@ -15,6 +15,58 @@
   <meta name="twitter:description" content="Start your web dev journey with the right tools in 2025." />
   <title>Top Front-End Tools to Learn in 2025</title>
   <style>
+    /* Hamburger Menu Styles */
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.menu-toggle span {
+  display: block;
+  height: 4px;
+  background: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #f06392;
+  color: white;
+  padding: 60px 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 18px;
+}
+#toggle:checked ~ .menu {
+  left: 0;
+}
+#toggle:checked + .menu-toggle .bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+#toggle:checked + .menu-toggle .bar2 {
+  opacity: 0;
+}
+#toggle:checked + .menu-toggle .bar3 {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+#toggle {
+  display: none;
+}
     body {
       font-family: 'Poppins', sans-serif;
       background: #f5f0fa;
@@ -52,24 +104,19 @@
   </style>
 </head>
 <body>
-    <a href="blog.html" class="button-link">X</a>
-   
-    <style>
-      .button-link {
-        display: inline-block;
-        background-color: rgb(255, 185, 185);
-        padding: 10px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-      }
-    
-      .button-link:hover {
-        background-color: rgb(255, 150, 150); /* Add hover effect */
-      }
-    </style>
+  <input type="checkbox" id="toggle">
+
+<label class="menu-toggle" for="toggle">
+  <span class="bar1"></span>
+  <span class="bar2"></span>
+  <span class="bar3"></span>
+</label>
+
+<div class="menu">
+  <a href=".html">🏠 Home</a>
+  <a href="#services">📄 About</a>
+  <a href="#contact">📞 Contact</a>
+</div>
     
   <article>
     <header>
