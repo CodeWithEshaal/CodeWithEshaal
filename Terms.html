@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions | CodeWithEshaal</title>
+  <style>
+        /* Hamburger Menu Styles */
+  .menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .menu-toggle span {
+    display: block;
+    height: 4px;
+    background: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #f06392;
+    color: white;
+    padding: 60px 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  .menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  #toggle:checked ~ .menu {
+    left: 0;
+  }
+  #toggle:checked + .menu-toggle .bar1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  #toggle:checked + .menu-toggle .bar2 {
+    opacity: 0;
+  }
+  #toggle:checked + .menu-toggle .bar3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+  #toggle {
+    display: none;
+  }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    h1, h2 {
+      color: #c2185b;
+    }
+
+    h1 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    a {
+      color: #c2185b;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<input type="checkbox" id="toggle">
+
+<label class="menu-toggle" for="toggle">
+  <span class="bar1"></span>
+  <span class="bar2"></span>
+  <span class="bar3"></span>
+</label>
+
+<div class="menu">
+  <a href="#">🏠 Home</a>
+  <a href="#">📄 About</a>
+  <a href="#">💼 Projects</a>
+  <a href="#">📞 Contact</a>
+</div>
+
+  <h1>Terms & Conditions</h1>
+  <p><strong>Effective Date:</strong> July 2, 2025</p>
+
+  <p>Welcome to <strong>CodeWithEshaal.com</strong>. By using this website, you agree to the following terms. Please read them carefully before using the site.</p>
+
+  <h2>1. Ownership</h2>
+  <p>This website is owned and managed by Eshaal. All content including text, images, tutorials, and code is the property of CodeWithEshaal.com unless otherwise stated.</p>
+
+  <h2>2. Website Use</h2>
+  <p>You may use this website for personal and educational purposes. You must not use it for unlawful activities, spam, or hacking attempts.</p>
+
+  <h2>3. Content Rights</h2>
+  <p>You may not copy or redistribute any content from this website without permission. All content is protected by copyright laws.</p>
+
+  <h2>4. User Submissions</h2>
+  <p>Any feedback or content you submit may be used by CodeWithEshaal.com for display or promotional purposes.</p>
+
+  <h2>5. Third-Party Links</h2>
+  <p>This site may include links to other websites. We are not responsible for the content or privacy practices of those websites.</p>
+
+  <h2>6. Disclaimer</h2>
+  <p>All content is provided “as is”. CodeWithEshaal.com does not guarantee accuracy or results and is not liable for any losses from use of the site.</p>
+
+  <h2>7. Updates to Terms</h2>
+  <p>These terms may change over time. Updated terms will be posted here, and your continued use means you accept them.</p>
+
+  <h2>8. Contact</h2>
+  <p>For questions or concerns, contact us:<br>
+    📧 <a href="mailto:support@codewitheshaal.com">support@codewitheshaal.com</a><br>
+    🌐 <a href="https://www.codewitheshaal.com">www.codewitheshaal.com</a>
+  </p>
+
+  <footer>&copy; 2025 CodeWithEshaal.com. All rights reserved.</footer>
+
+</body>
+</html>
