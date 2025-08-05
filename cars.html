@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+<script src="cart.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cars - ToyLand</title>
@@ -14,21 +14,35 @@
     .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
     .product-card:hover { transform: scale(1.05); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
     .product-card img { height: 220px; object-fit: cover; }
+        .navbar {
+      background-color: #ff80ab;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+      /* make sure it stays on top */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      /* optional shadow */
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
 
 
-<div id="navbar"></div>
-<style> 
-body {
-  padding-top: 70px; /* Adjust to match navbar height */
-}
-</style>
 
-
-
-<script src="navbar.js"></script>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="index.html">ToyLand</a>
+      <a href="cart.html" class="btn btn-warning">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </div>
+  </nav>
 
 
 
@@ -58,7 +72,7 @@ body {
   </div>
 </div>
 
-<script src="cart.js"></script>
+
 <script>updateCartCount();</script>
 </body>
 </html>
