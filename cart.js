@@ -1,17 +1,17 @@
 // ================== GLOBAL PRODUCTS ARRAY ==================
 window.products = [
     // Plushies
-    { id: 1, name: "Stuffed Bunny", price: 1500, image: "https://images.unsplash.com/photo-1620057589233-91529b2c7b85?auto=format&fit=crop&w=800&q=80" },
-    { id: 2, name: "Plush Teddy", price: 1600, image: "https://images.unsplash.com/photo-1616627980939-27bf99e846da?auto=format&fit=crop&w=800&q=80" },
+    { id: 1, name: "Stuffed Bunny", price: 1500, image: "images/toyland2.png" },
+    { id: 2, name: "Plush Teddy", price: 1600, image: "images/toyland.png" },
     // Cars
-    { id: 3, name: "Race Car", price: 1800, image: "https://images.unsplash.com/photo-1601979031461-9f1f77a58b18?auto=format&fit=crop&w=800&q=80" },
-    { id: 4, name: "Lego Car", price: 2500, image: "https://images.unsplash.com/photo-1606813902914-41f0fb2f0b6f?auto=format&fit=crop&w=800&q=80" },
+    { id: 3, name: "Race Car", price: 1800, image: "images/toyland2.png" },
+    { id: 4, name: "Lego Car", price: 2500, image: "images/toyland.png" },
     // Dolls
-    { id: 5, name: "Barbie Doll", price: 2000, image: "https://images.unsplash.com/photo-1596995809809-9c5d8c2c5fdd?auto=format&fit=crop&w=800&q=80" },
-    { id: 6, name: "Baby Doll", price: 1700, image: "https://images.unsplash.com/photo-1604932601198-28006313fcab?auto=format&fit=crop&w=800&q=80" },
+    { id: 5, name: "Barbie Doll", price: 2000, image: "images/toyland.png" },
+    { id: 6, name: "Baby Doll", price: 1700, image: "images/toyland2.png" },
     // Puzzles
-    { id: 7, name: "Wooden Puzzle", price: 2000, image: "https://images.unsplash.com/photo-1617201869587-2b1dcd5f62b2?auto=format&fit=crop&w=800&q=80" },
-    { id: 8, name: "3D Puzzle", price: 2200, image: "https://images.unsplash.com/photo-1577680715838-6b1c45a62a54?auto=format&fit=crop&w=800&q=80" }
+    { id: 7, name: "Wooden Puzzle", price: 2000, image: "images/toyland.png" },
+    { id: 8, name: "3D Puzzle", price: 2200, image: "images/toyland2.png" }
 ];
 
 // ================== CART FUNCTIONS ==================
