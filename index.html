@@ -1,850 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CodeWithEshaal - Custom Websites & Development</title>
-  <meta name="description" content="Professional web design & development services in Madinat al Jafr, Saudi Arabia. We create high-performance, SEO-optimized websites that drive results.">
-  <meta name="keywords" content="web design, web development, CodeWithEshaal, Madinat al Jafr, SEO services, custom websites, Saudi Arabia web developer">
-  <meta name="author" content="CodeWithEshaal">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-  <link rel="canonical" href="https://www.codewitheshaal.com" />
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="CodeWithEshaal - Custom Websites & Development" />
-  <meta property="og:description" content="Professional web design & development services in Madinat al Jafr, Saudi Arabia." />
-  <meta property="og:url" content="https://www.codewitheshaal.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://www.codewitheshaal.com/og-image.jpg" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CodeWithEshaal - Custom Websites & Development" />
-  <meta name="twitter:description" content="Professional web design & development services in Madinat al Jafr, Saudi Arabia." />
-  <meta name="twitter:image" content="https://www.codewitheshaal.com/twitter-image.jpg" />
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "CodeWithEshaal",
-    "alternateName": "Code With Eshaal",
-    "url": "https://www.codewitheshaal.com",
-    "logo": "https://www.codewitheshaal.com/logo.png",
-    "image": "https://www.codewitheshaal.com/banner.jpg",
-    "description": "Professional web design & development services in Madinat al Jafr, Saudi Arabia. SEO-optimized websites that drive results.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Madinat al Jafr",
-      "addressRegion": "Eastern Province",
-      "postalCode": "35811",
-      "addressCountry": "SA"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.1937,
-      "longitude": 49.5568
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+966-5-0000-0000",
-      "contactType": "customer service",
-      "email": "support@codewitheshaal.com"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/in/codewitheshaal"
-    ]
-  }
-  </script>
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToyLand Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* Dark Theme with Original Blue Color Scheme */
-    :root {
-      --primary: #2962ff; /* Your original blue */
-      --secondary: #2962ff; /* Same blue for single color scheme */
-      --dark: #121212;
-      --darker: #0a0a0a;
-      --dark-light: #1e1e1e;
-      --text: #e0e0e0;
-      --text-light: #b0b0b0;
-      --text-lighter: #888;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background-color: var(--dark);
-      overflow-x: hidden;
-    }
-    
-    img {
-      max-width: 100%;
-      height: auto;
-      transition: all 0.3s ease;
-    }
-    
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-    
-    /* Utility Classes */
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    
-    .btn {
-      display: inline-block;
-      padding: 12px 30px;
-      background: var(--primary);
-      color: white;
-      border-radius: 50px;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      border: none;
-      cursor: pointer;
-      text-align: center;
-    }
-    
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    }
-    
-    .text-gradient {
-      color: var(--primary);
-    }
-    
-    .section-title {
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-      text-align: center;
-      position: relative;
-      color: var(--text);
-    }
-    
-    .section-title::after {
-      content: '';
-      display: block;
-      width: 80px;
-      height: 4px;
-      background: var(--primary);
-      margin: 15px auto;
-      border-radius: 2px;
-    }
-    
-    /* Background */
-    .ds-background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-    }
-    
-    .ds-background img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      filter: brightness(0.3);
-    }
-    
-    /* Navbar */
-    .ds-navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      padding: 20px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 100;
-      transition: all 0.3s ease;
-      background-color: rgba(10, 10, 10, 0.8);
-      backdrop-filter: blur(10px);
-    }
-    
-    .ds-navbar.scrolled {
-      padding: 15px 40px;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-    }
-    
-    .ds-logo-text {
-      display: flex;
-      align-items: center;
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: white;
-    }
-    
-    .ds-logo-text i {
-      margin-right: 10px;
-      color: var(--primary);
-    }
-    
-    .ds-menu-btn {
-      background: transparent;
-      border: none;
-      color: white;
-      font-size: 1rem;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    
-    .ds-menu-btn i {
-      font-size: 1.2rem;
-    }
-    
-    /* Menu Panel */
-    .ds-menu-panel {
-      position: fixed;
-      top: 0;
-      right: -300px;
-      width: 300px;
-      height: 100vh;
-      background-color: var(--dark-light);
-      z-index: 1000;
-      transition: right 0.3s ease;
-      padding: 80px 30px;
-      box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
-    }
-    
-    .ds-menu-panel.active {
-      right: 0;
-    }
-    
-    .ds-menu-links {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    
-    .ds-menu-link {
-      font-size: 1.1rem;
-      color: var(--text);
-      transition: color 0.3s ease;
-      padding: 8px 0;
-      border-bottom: 1px solid var(--darker);
-    }
-    
-    .ds-menu-link:hover {
-      color: var(--primary);
-    }
-    
-    .social-links {
-      display: flex;
-      gap: 15px;
-      margin-top: 40px;
-    }
-    
-    .social-link {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: var(--darker);
-      color: var(--text);
-      transition: all 0.3s ease;
-    }
-    
-    .social-link:hover {
-      background: var(--primary);
-      color: white;
-      transform: translateY(-3px);
-    }
-    
-    .ds-menu-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-      z-index: 999;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.3s ease;
-    }
-    
-    .ds-menu-overlay.active {
-      opacity: 1;
-      visibility: visible;
-    }
-    
-    .no-scroll {
-      overflow: hidden;
-    }
-    
-    /* Hero Section */
-    .ds-container {
-      display: flex;
-      min-height: 100vh;
-      align-items: center;
-      padding: 100px 40px 60px;
-      color: white;
-    }
-    
-    .ds-text-panel {
-      flex: 1;
-      padding-right: 40px;
-      max-width: 600px;
-    }
-    
-    .ds-image-side {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .ds-small-heading {
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      color: rgba(255, 255, 255, 0.7);
-      margin-bottom: 20px;
-    }
-    
-    .ds-main-heading {
-      font-size: 3.5rem;
-      line-height: 1.2;
-      margin-bottom: 20px;
-      font-weight: 800;
-      color: white;
-    }
-    
-    .ds-sub-heading {
-      font-size: 1.2rem;
-      margin-bottom: 40px;
-      color: rgba(255, 255, 255, 0.8);
-    }
-    
-    .hero-image {
-      border-radius: 10px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-      max-width: 100%;
-      height: auto;
-      transition: all 0.5s ease;
-      position: relative;
-      z-index: 1;
-    }
-    
-    /* Image Hover Effect */
-    .ds-image-side:hover .hero-image {
-      transform: scale(1.05);
-      box-shadow: 0 30px 60px rgba(41, 98, 255, 0.3);
-    }
-    
-    /* Services Section */
-    .ds-services {
-      padding: 100px 0;
-      background-color: var(--darker);
-    }
-    
-    .service-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      margin-top: 50px;
-    }
-    
-    .service-card {
-      background: var(--dark-light);
-      border-radius: 10px;
-      padding: 40px 30px;
-      text-align: center;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-    }
-    
-    .service-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 15px 40px rgba(41, 98, 255, 0.2);
-      border-color: rgba(41, 98, 255, 0.3);
-    }
-    
-    .service-card i {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      color: var(--primary);
-    }
-    
-    .service-card h3 {
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-      color: white;
-    }
-    
-    .service-card p {
-      color: var(--text-light);
-    }
-    
-    /* Portfolio Section */
-    .ds-portfolio {
-      padding: 100px 0;
-      background-color: var(--dark);
-    }
-    
-    .portfolio-header {
-      text-align: center;
-      margin-bottom: 50px;
-    }
-    
-    .portfolio-cta {
-      text-align: center;
-      margin-top: 50px;
-    }
-    
-    /* Contact Section */
-    .ds-contact {
-      padding: 100px 0;
-      background-color: var(--darker);
-    }
-    
-    .contact-options {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 40px;
-      margin-top: 50px;
-    }
-    
-    .contact-card {
-      text-align: center;
-      padding: 40px;
-      border-radius: 10px;
-      background: var(--dark-light);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-      flex: 1;
-      min-width: 300px;
-      max-width: 400px;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-    }
-    
-    .contact-card h3 {
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      color: white;
-    }
-    
-    .contact-card h3 i {
-      color: var(--primary);
-    }
-    
-    .contact-divider {
-      color: var(--text-light);
-      font-weight: bold;
-    }
-    
-    .contact-email {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 1.1rem;
-      color: var(--primary);
-      margin-top: 20px;
-      transition: color 0.3s ease;
-    }
-    
-    .contact-email:hover {
-      color: var(--text);
-    }
-    
-    /* Footer */
-    .ds-footer {
-      background-color: var(--darker);
-      color: white;
-      padding: 60px 0 30px;
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
-    }
-    
-    .footer-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    
-    .footer-logo {
-      display: flex;
-      align-items: center;
-      font-size: 1.8rem;
-      font-weight: 700;
-      margin-bottom: 30px;
-    }
-    
-    .footer-logo i {
-      color: var(--primary);
-      margin-right: 10px;
-    }
-    
-    .footer-links {
-      display: flex;
-      gap: 30px;
-      margin-bottom: 30px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    
-    .footer-link {
-      transition: color 0.3s ease;
-    }
-    
-    .footer-link:hover {
-      color: var(--primary);
-    }
-    
-    .copyright {
-      margin-top: 30px;
-      color: var(--text-lighter);
-      font-size: 0.9rem;
-    }
-    
-    /* Animations */
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeIn 0.8s ease forwards;
-    }
-    
-    .delay-1 {
-      animation-delay: 0.2s;
-    }
-    
-    .delay-2 {
-      animation-delay: 0.4s;
-    }
-    
-    .delay-3 {
-      animation-delay: 0.6s;
-    }
-    
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    
-    .cursor {
-      display: inline-block;
-      width: 3px;
-      height: 1em;
-      background: white;
-      vertical-align: middle;
-      margin-left: 3px;
-      animation: blink 1s infinite;
-    }
-    
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    
-    /* Responsive Styles */
-    @media (max-width: 992px) {
-      .ds-container {
-        flex-direction: column;
-        text-align: center;
-        padding-top: 120px;
-      }
-      
-      .ds-text-panel {
-        padding-right: 0;
-        margin-bottom: 50px;
-      }
-      
-      .ds-main-heading {
-        font-size: 2.8rem;
-      }
-    }
-    
-    @media (max-width: 768px) {
-      .ds-navbar {
-        padding: 15px 20px;
-      }
-      
-      .ds-main-heading {
-        font-size: 2.2rem;
-      }
-      
-      .section-title {
-        font-size: 2rem;
-      }
-      
-      .contact-options {
-        flex-direction: column;
-      }
-      
-      .contact-divider {
-        margin: 20px 0;
-      }
-    }
+    body { background-color: #fffaf0; font-family: 'Comic Sans MS', cursive; }
+    .navbar { background-color: #ff80ab; }
+    .navbar-brand, .nav-link { color: white !important; font-weight: bold; }
+    .category-card, .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .category-card:hover, .product-card:hover { transform: scale(1.05); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    .category-card img, .product-card img { height: 220px; object-fit: cover; }
+    .sale-price { color: red; font-weight: bold; }
+    .old-price { text-decoration: line-through; color: gray; }
+    footer { background-color: #ff80ab; color: white; padding: 20px 0; margin-top: 30px; }
+    .hero { background: linear-gradient(to right, #ff80ab, #ffb6c1); padding: 50px 20px; text-align: center; color: white; }
+    .hero h1 { font-size: 3rem; font-weight: bold; }
+
+
+body {
+  padding-top: 60px; /* adjust to match navbar height */
+}
+
   </style>
 </head>
-
 <body>
-    <!-- Full-screen background image -->
-    <div class="ds-background">
-        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
-            alt="Modern workspace with computer setup" loading="lazy" width="1920" height="1080">
+
+
+<div id="navbar"></div>
+<style> 
+body {
+  padding-top: 70px; /* Adjust to match navbar height */
+}
+</style>
+
+
+
+<script src="navbar.js"></script>
+
+
+
+<!-- Hero Banner -->
+<div class="hero">
+  <h1>Welcome to ToyLand</h1>
+  <p>Where Fun Begins for Every Child!</p>
+  <a href="all-toys.html" class="btn btn-light btn-lg">Shop Now</a>
+</div>
+
+<!-- Popular Toys -->
+<div class="container py-5" id="popular">
+  <h2 class="text-center mb-4">Popular Toys</h2>
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1620057589233-91529b2c7b85?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Stuffed Bunny</h5>
+          <p class="text-success fw-bold">PKR 1500</p>
+          <button class="btn btn-warning" onclick="addToCart(1)">Add to Cart 🛒</button>
+        </div>
+      </div>
     </div>
-
-    <!-- Navigation -->
-    <nav class="ds-navbar">
-        <a href="#" class="ds-logo-text">
-            <i class="fas fa-code"></i>
-            <span>CodeWithEshaal</span>
-        </a>
-        <button class="ds-menu-btn" id="menuBtn" aria-label="Toggle menu">
-            <i class="fas fa-bars"></i> MENU
-        </button>
-    </nav>
-
-    <!-- Menu Panel -->
-    <div class="ds-menu-panel" id="menuPanel">
-        <div class="ds-menu-links">
-            <a href="blog.html" class="ds-menu-link">Blogs</a>
-            <a href="#services" class="ds-menu-link">Services</a>
-            <a href="#portfolio" class="ds-menu-link">Portfolio</a>
-            <a href="#testimonials" class="ds-menu-link">Testimonials</a>
-            <a href="#contact" class="ds-menu-link">Contact</a>
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1601979031461-9f1f77a58b18?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Race Car</h5>
+          <p class="text-success fw-bold">PKR 1800</p>
+          <button class="btn btn-warning" onclick="addToCart(3)">Add to Cart 🛒</button>
         </div>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/company/codewitheshaal" class="social-link" aria-label="LinkedIn"><i
-                    class="fab fa-linkedin-in"></i></a>
-        </div>
+      </div>
     </div>
-
-    <!-- Overlay -->
-    <div class="ds-menu-overlay" id="menuOverlay"></div>
-
-    <!-- Hero Section -->
-    <div class="ds-container">
-        <!-- Text Panel -->
-        <div class="ds-text-panel">
-            <div class="ds-small-heading fade-in">PREMIUM WEB DESIGN AGENCY</div>
-            <h1 class="ds-main-heading fade-in delay-1" id="typingHeading"><span class="cursor"></span></h1>
-            <p class="ds-sub-heading fade-in delay-2">We create stunning, high-performance websites that drive results.
-                Our custom solutions combine beautiful design with cutting-edge technology to elevate your online
-                presence.</p>
-            <div class="fade-in delay-3">
-                <a href="#contact" class="btn">Get Started</a>
-            </div>
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1596995809809-9c5d8c2c5fdd?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Barbie Doll</h5>
+          <p class="text-success fw-bold">PKR 2000</p>
+          <button class="btn btn-warning" onclick="addToCart(5)">Add to Cart 🛒</button>
         </div>
-
-        <!-- Image Side -->
-        <div class="ds-image-side fade-in delay-2">
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="Web design process" class="hero-image" loading="lazy" width="800" height="600">
-        </div>
+      </div>
     </div>
-
-    <!-- Services Section -->
-    <section class="ds-services" id="services">
-        <div class="container services-container">
-            <h2 class="section-title fade-in">Our <span class="text-gradient">Services</span></h2>
-            <div class="service-grid">
-                <div class="service-card fade-in">
-                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
-                    <h3>Web Development</h3>
-                    <p>Custom, responsive websites built with the latest technologies for optimal performance across all
-                        devices.</p>
-                </div>
-                <div class="service-card fade-in delay-1">
-                    <i class="fas fa-paint-brush" aria-hidden="true"></i>
-                    <h3>UI/UX Design</h3>
-                    <p>Beautiful, intuitive interfaces designed to enhance user experience and drive engagement.</p>
-                </div>
-                <div class="service-card fade-in delay-1">
-                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
-                    <h3>E-Commerce</h3>
-                    <p>Powerful online stores designed to convert visitors into loyal customers.</p>
-                </div>
-                <div class="service-card fade-in delay-1">
-                    <i class="fas fa-chart-line" aria-hidden="true"></i>
-                    <h3>SEO</h3>
-                    <p>Search Engine Optimization to improve website visibility and drive organic traffic.</p>
-                </div>
-            </div>
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1617201869587-2b1dcd5f62b2?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Wooden Puzzle</h5>
+          <p class="text-success fw-bold">PKR 2000</p>
+          <button class="btn btn-warning" onclick="addToCart(7)">Add to Cart 🛒</button>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- Portfolio Section -->
-    <section class="ds-portfolio" id="portfolio">
-        <div class="container portfolio-container">
-            <div class="portfolio-header">
-                <h2 class="section-title fade-in">Our <span class="text-gradient">Portfolio</span></h2>
-            </div>
-            <div class="portfolio-cta fade-in delay-3">
-                <p style="margin-bottom: 1.5rem;">Ready to start your project?</p>
-                <a href="#contact" class="btn">Click here to Start</a>
-            </div>
+<!-- On Sale -->
+<div class="container py-5">
+  <h2 class="text-center mb-4">On Sale</h2>
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1616627980939-27bf99e846da?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Plush Teddy</h5>
+          <p><span class="old-price">PKR 2000</span> <span class="sale-price">PKR 1600</span></p>
+          <button class="btn btn-warning" onclick="addToCart(2)">Add to Cart 🛒</button>
         </div>
-     </section>
-  
-    <!-- Contact Section -->
-    <section class="ds-contact" id="contact">
-        <div class="container contact-container">
-            <h2 class="section-title fade-in">Contact <span class="text-gradient">Us</span></h2>
-            <p class="fade-in delay-1" style="max-width: 600px; margin: 0 auto 2rem;">Have a project in mind? Let's
-                collaborate and bring your ideas to life.</p>
-
-            <div class="contact-options fade-in delay-2">
-                <div class="contact-card">
-                    <h3><i class="fas fa-briefcase" aria-hidden="true"></i> Hire Me on Fiverr</h3>
-                    <a href="https://www.fiverr.com/s/bdwRq8a" target="_blank"
-                        rel="noopener noreferrer" class="btn">
-                        View My Fiverr Profile
-                    </a>
-                </div>
-                <div class="contact-divider">OR</div>
-                <div class="contact-card">
-                    <h3><i class="fas fa-envelope" aria-hidden="true"></i> Email Me Directly</h3>
-                    <a href="mailto:codewitheshaal@gmail.com" class="contact-email">
-                        <i class="fas fa-paper-plane" aria-hidden="true"></i> codewitheshaal@gmail.com
-                    </a>
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1606813902914-41f0fb2f0b6f?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Lego Car</h5>
+          <p><span class="old-price">PKR 3000</span> <span class="sale-price">PKR 2500</span></p>
+          <button class="btn btn-warning" onclick="addToCart(4)">Add to Cart 🛒</button>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- Footer -->
-    <footer class="ds-footer">
-        <div class="container">
-            <div class="footer-content">
-                <a href="#" class="footer-logo">
-                    <i class="fas fa-code"></i>
-                    <span>CodeWithEshaal</span>
-                </a>
-                <div class="footer-links">
-                    <a href="#services" class="footer-link">Services</a>
-                    <a href="#portfolio" class="footer-link">Portfolio</a>
-                    <a href="#contact" class="footer-link">Contact</a>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/company/codewitheshaal" class="social-link"
-                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <p class="copyright">© 2025 CodeWithEshaal. All rights reserved.</p>
-            </div>
+<!-- Categories -->
+<div class="container py-5">
+  <h2 class="text-center mb-4">Shop by Category</h2>
+  <div class="row g-4">
+    <div class="col-md-3">
+      <a href="plushies.html" class="text-decoration-none text-dark">
+        <div class="card category-card">
+          <img src="https://images.unsplash.com/photo-1620057589233-91529b2c7b85?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+          <div class="card-body text-center"><h5>Plushies</h5></div>
         </div>
-    </footer>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="cars.html" class="text-decoration-none text-dark">
+        <div class="card category-card">
+          <img src="https://images.unsplash.com/photo-1601979031461-9f1f77a58b18?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+          <div class="card-body text-center"><h5>Cars</h5></div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="dolls.html" class="text-decoration-none text-dark">
+        <div class="card category-card">
+          <img src="https://images.unsplash.com/photo-1596995809809-9c5d8c2c5fdd?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+          <div class="card-body text-center"><h5>Dolls</h5></div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="puzzles.html" class="text-decoration-none text-dark">
+        <div class="card category-card">
+          <img src="https://images.unsplash.com/photo-1617201869587-2b1dcd5f62b2?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+          <div class="card-body text-center"><h5>Puzzles</h5></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
-    <script>
-        // Typing animation - IMPROVED VERSION
-        const typingHeading = document.getElementById('typingHeading');
-        const words = ["We build your Business", "We grow your Business", "We create stunning websites", "Let's collaborate to bring your dreams to life!"];
-        let wordIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        let typingDelay = 100;
-        let deletingDelay = 50;
-        let pauseBetweenWords = 1000;
+<!-- Footer -->
+<footer class="text-center">
+  <p>&copy; 2025 ToyLand. All Rights Reserved.</p>
+</footer>
 
-        function type() {
-            const currentWord = words[wordIndex];
+<script src="cart.js"></script>
+<script>updateCartCount();</script>
 
-            if (isDeleting) {
-                // Deleting characters
-                typingHeading.innerHTML = currentWord.substring(0, charIndex - 1) + '<span class="cursor"></span>';
-                charIndex--;
-            } else {
-                // Adding characters
-                typingHeading.innerHTML = currentWord.substring(0, charIndex + 1) + '<span class="cursor"></span>';
-                charIndex++;
-            }
-
-            if (!isDeleting && charIndex === currentWord.length) {
-                // Word is fully typed, pause then start deleting
-                isDeleting = true;
-                setTimeout(type, pauseBetweenWords);
-            } else if (isDeleting && charIndex === 0) {
-                // Word is fully deleted, move to next word
-                isDeleting = false;
-                wordIndex = (wordIndex + 1) % words.length;
-                setTimeout(type, typingDelay);
-            } else {
-                // Continue typing/deleting
-                setTimeout(type, isDeleting ? deletingDelay : typingDelay);
-            }
-        }
-
-        // Mobile menu toggle
-        const menuBtn = document.getElementById('menuBtn');
-        const menuPanel = document.getElementById('menuPanel');
-        const menuOverlay = document.getElementById('menuOverlay');
-        const body = document.body;
-
-        menuBtn.addEventListener('click', () => {
-            menuPanel.classList.toggle('active');
-            menuOverlay.classList.toggle('active');
-            body.classList.toggle('no-scroll');
-        });
-
-        menuOverlay.addEventListener('click', () => {
-            menuPanel.classList.remove('active');
-            menuOverlay.classList.remove('active');
-            body.classList.remove('no-scroll');
-        });
-
-        // Close menu when clicking on links
-        document.querySelectorAll('.ds-menu-link').forEach(link => {
-            link.addEventListener('click', () => {
-                menuPanel.classList.remove('active');
-                menuOverlay.classList.remove('active');
-                body.classList.remove('no-scroll');
-            });
-        });
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                document.querySelector('.ds-navbar').classList.add('scrolled');
-            } else {
-                document.querySelector('.ds-navbar').classList.remove('scrolled');
-            }
-        });
-
-        // Start typing animation
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(type, 1000);
-
-            // Track outbound links
-            document.querySelectorAll('a[href^="http"]').forEach(link => {
-                if (link.hostname !== window.location.hostname) {
-                    link.addEventListener('click', function (e) {
-                        // You can add analytics tracking here
-                        console.log('Outbound link clicked:', this.href);
-                    });
-                }
-            });
-        });
-    </script>
 </body>
 </html>

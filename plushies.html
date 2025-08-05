@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plushies - ToyLand</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #fffaf0; font-family: 'Comic Sans MS', cursive; }
+    .navbar { background-color: #ff80ab; }
+    .navbar-brand, .nav-link { color: white !important; font-weight: bold; }
+    .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .product-card:hover { transform: scale(1.05); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    .product-card img { height: 220px; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+
+<div id="navbar"></div>
+<style> 
+body {
+  padding-top: 70px; /* Adjust to match navbar height */
+}
+</style>
+
+
+
+<script src="navbar.js"></script>
+
+
+<div class="container py-5">
+  <h1 class="text-center mb-4">Plushies</h1>
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1620057589233-91529b2c7b85?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Stuffed Bunny</h5>
+          <p class="text-success fw-bold">PKR 1500</p>
+          <button class="btn btn-warning" onclick="addToCart(1)">Add to Cart 🛒</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card product-card">
+        <img src="https://images.unsplash.com/photo-1616627980939-27bf99e846da?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Plush Teddy</h5>
+          <p class="text-success fw-bold">PKR 1600</p>
+          <button class="btn btn-warning" onclick="addToCart(2)">Add to Cart 🛒</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="cart.js"></script>
+<script>updateCartCount();</script>
+</body>
+</html>
