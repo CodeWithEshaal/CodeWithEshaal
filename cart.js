@@ -1,17 +1,17 @@
 // ================== GLOBAL PRODUCTS ARRAY ==================
 window.products = [
     // Plushies
-    { id: 1, name: "Stuffed Bunny", price: 1500, image: "images/toyland2.png" },
-    { id: 2, name: "Plush Teddy", price: 1600, image: "images/toyland.png" },
+    { id: 1, name: "Stuffed Bunny", price: 1500, image: "images/Stuffed-Bunny.png" },
+    { id: 2, name: "Plush Teddy", price: 1600, image: "images/Plush-Teddy.png" },
     // Cars
-    { id: 3, name: "Race Car", price: 1800, image: "images/toyland2.png" },
-    { id: 4, name: "Lego Car", price: 2500, image: "images/toyland.png" },
+    { id: 3, name: "Race Car", price: 1800, image: "images/Racing-car.png" },
+    { id: 4, name: "Lego Car", price: 2500, image: "Images/Lego Car.png" },
     // Dolls
-    { id: 5, name: "Barbie Doll", price: 2000, image: "images/toyland.png" },
-    { id: 6, name: "Baby Doll", price: 1700, image: "images/toyland2.png" },
+    { id: 5, name: "Barbie Doll", price: 2000, image: "Images/Barbie doll.png" },
+    { id: 6, name: "Baby Doll", price: 1700, image: "Images/Baby doll.png" },
     // Puzzles
-    { id: 7, name: "Wooden Puzzle", price: 2000, image: "images/toyland.png" },
-    { id: 8, name: "3D Puzzle", price: 2200, image: "images/toyland2.png" }
+    { id: 7, name: "Wooden Puzzle", price: 2000, image: "Images/Woden puzzule.png" },
+    { id: 8, name: "3D Puzzle", price: 2200, image: "Images/3D puzzle.png" }
 ];
 
 // ================== CART FUNCTIONS ==================
