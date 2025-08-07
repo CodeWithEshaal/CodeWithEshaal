@@ -126,7 +126,7 @@
     /* Portfolio Section */
 #portfolio {
   padding: 80px 20px;
-  background: #f9f9f9;
+  background: #000000;
   text-align: center;
 }
 
@@ -147,7 +147,7 @@
 
 /* Card */
 .portfolio-card {
-  background: black;
+  background: rgb(61, 60, 60);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -461,6 +461,7 @@
       margin-bottom: 15px;
       color: white;
     }
+
     .card img {
   width: 100%;
   height: auto;
@@ -961,21 +962,6 @@
                 }
             });
         });
-      const menuBtn = document.getElementById('menuBtn');
-const menuPanel = document.getElementById('menuPanel');
-const menuOverlay = document.getElementById('menuOverlay');
-
-menuBtn.addEventListener('click', () => {
-  menuPanel.classList.toggle('active');
-  menuOverlay.classList.toggle('active');
-  document.body.classList.toggle('no-scroll');
-});
-
-menuOverlay.addEventListener('click', () => {
-  menuPanel.classList.remove('active');
-  menuOverlay.classList.remove('active');
-  document.body.classList.remove('no-scroll');
-});
 
     </script>
 </body>
