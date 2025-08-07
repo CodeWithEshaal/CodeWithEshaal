@@ -123,6 +123,73 @@
       transform: translateY(-3px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     }
+    /* Portfolio Section */
+#portfolio {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card */
+.portfolio-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-card h3 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+}
+
+.portfolio-card p {
+  padding: 0 15px;
+  font-size: 15px;
+  color: #666;
+}
+
+.portfolio-card a {
+  display: inline-block;
+  margin: 15px 0 20px;
+  padding: 10px 20px;
+  background: #ff5c8a;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.portfolio-card a:hover {
+  background: #ff2d6b;
+}
+
     
     .text-gradient {
       color: var(--primary);
@@ -711,39 +778,43 @@
     </section>
 
  <!-- Portfolio Section -->
-<section class="ds-portfolio" id="portfolio">
-    <div class="container portfolio-container">
-        <div class="portfolio-header">
-            <h2 class="section-title fade-in">Our <span class="text-gradient">Portfolio</span></h2>
-        </div>
+<section id="portfolio">
+  <div class="container">
+    <h2 class="section-title">My Portfolio</h2>
+    
+    <div class="portfolio-grid">
 
-        <!-- Portfolio Grid -->
-    <!-- ✅ First Card: TOY LAND PROJECT -->
-      <div class="card">
-<img src="images/Screenshot 2025-08-07 082231.png" alt="Toy Land Project">
-  <div class="card-body">
- <h3>Toy Land Store</h3>  </div>
-   <p>A fun and colorful e-commerce website for toys. Features include product listings, cart system, and category filters using vanilla JavaScript.</p>
+      <!-- Portfolio Card 1 -->
+      <div class="portfolio-card">
+        <img src="images/website1.png" alt="Project 1">
+        <h3>Business Website</h3>
+        <p>A fully responsive business website for a startup.</p>
+        <a href="https://example.com/project1" target="_blank">View Project</a>
+      </div>
+
+      <!-- Portfolio Card 2 -->
+      <div class="portfolio-card">
+        <img src="images/website2.png" alt="Project 2">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio with smooth animations and responsive layout.</p>
+        <a href="https://example.com/project2" target="_blank">View Project</a>
+      </div>
+
+      <!-- Portfolio Card 3 -->
+      <div class="portfolio-card">
+        <img src="images/website3.png" alt="Project 3">
+        <h3>E-commerce Toy Store</h3>
+        <p>Fun and colorful toy store built using vanilla HTML, CSS, JS.</p>
+        <a href="https://example.com/toystore" target="_blank">View Project</a>
+      </div>
+
+      <!-- Add More Cards Below -->
+      <!-- Just follow the same structure -->
+      
+    </div>
   </div>
-</div>
+</section>
 
-
-            <!-- Portfolio Card 2 -->
-            <div class="service-card fade-in delay-1">
-                <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367f?w=800&q=80" 
-                     alt="Corporate Website" style="border-radius: 8px; margin-bottom: 20px;">
-                <h3>Corporate Website</h3>
-                <p>Modern, SEO-friendly website designed for a corporate client to showcase their services.</p>
-            </div>
-
-            <!-- Portfolio Card 3 -->
-            <div class="service-card fade-in delay-2">
-                <img src="https://images.unsplash.com/photo-1517430816045-df4b7de1cd0f?w=800&q=80" 
-                     alt="Personal Portfolio" style="border-radius: 8px; margin-bottom: 20px;">
-                <h3>Personal Portfolio</h3>
-                <p>Creative portfolio website for a designer, featuring animations and an interactive gallery.</p>
-            </div>
-        </div>
 
         <!-- Portfolio CTA -->
         <div class="portfolio-cta fade-in delay-3">
