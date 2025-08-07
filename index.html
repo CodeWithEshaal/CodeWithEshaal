@@ -874,6 +874,22 @@
                 }
             });
         });
+      const menuBtn = document.getElementById('menuBtn');
+const menuPanel = document.getElementById('menuPanel');
+const menuOverlay = document.getElementById('menuOverlay');
+
+menuBtn.addEventListener('click', () => {
+  menuPanel.classList.toggle('active');
+  menuOverlay.classList.toggle('active');
+  document.body.classList.toggle('no-scroll');
+});
+
+menuOverlay.addEventListener('click', () => {
+  menuPanel.classList.remove('active');
+  menuOverlay.classList.remove('active');
+  document.body.classList.remove('no-scroll');
+});
+
     </script>
 </body>
 </html>
