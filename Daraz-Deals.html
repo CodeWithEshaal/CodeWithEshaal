@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daraz Deals</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #f57224, #ff8c00);
+      color: white;
+      text-align: center;
+      padding:1rem 1rem;
+    }
+    
+    .search-bar input {
+      width: 90%;
+      max-width: 500px;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+      .card img {
+    width: 100%;
+    height: 300px; /* Big enough for mobile view */
+    object-fit: contain; /* Show full image without cropping */
+    padding: 10px;
+    background-color: #fff; /* Optional: makes it clean */
+    display: block;
+    margin: 0 auto;
+  }
+
+    .card-body {
+      padding: 1rem;
+    }
+    .card-body h3 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+    .card-body p {
+      margin: 0.3rem 0;
+    }
+    .card-body .price {
+      color: #f57224;
+      font-weight: bold;
+    }
+    .card-body .category {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .card-body a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #f57224;
+      color: white;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #ff8c00;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+    #typed-heading {
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 5px;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <p>Top Daraz Deals</p>
+    <h1 id="typed-heading"></h1>
+    <p>Find trending Daraz products with the best deals!</p>
+  </header>
+
+
+  <section class="products" id="product-list">
+    <!-- Dummy entries with your Daraz links -->
+    <div class="card" data-category="dummy,placeholder">
+      <img src="IMAGES/product-1.jpg" alt="Product 1">
+      <div class="card-body">
+        <h3>Product Title 1</h3>
+        <p class="category">Category: Dummy</p>
+        <p class="price">Rs. 999</p>
+        <p>Description goes here...</p>
+        <a href="https://s.daraz.pk/s.0AjgL?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="dummy">
+      <img src="IMAGES/product-2.jpg" alt="Product 2">
+      <div class="card-body">
+        <h3>Product Title 2</h3>
+        <p class="category">Category: Mobile, Tech</p>
+        <p class="price">Rs. 1599</p>
+        <p>Another description...</p>
+        <a href="https://s.daraz.pk/s.0ANQd?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="gadget,phone">
+      <img src="IMAGES/product-3.jpg" alt="Product 3">
+      <div class="card-body">
+        <h3>Product Title 3</h3>
+        <p class="category">Category: Phone</p>
+        <p class="price">Rs. 1899</p>
+        <p>Nice product description...</p>
+        <a href="https://s.daraz.pk/s.0A08S?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="electronics">
+      <img src="IMAGES/product-4.jpg" alt="Product 4">
+      <div class="card-body">
+        <h3>Product Title 4</h3>
+        <p class="category">Category: Electronics</p>
+        <p class="price">Rs. 1199</p>
+        <p>Description...</p>
+        <a href="https://s.daraz.pk/s.0ANQy?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="accessory">
+      <img src="IMAGES/product-5.jpg" alt="Product 5">
+      <div class="card-body">
+        <h3>Product Title 5</h3>
+        <p class="category">Category: Accessories</p>
+        <p class="price">Rs. 2499</p>
+        <p>Description here...</p>
+        <a href="https://s.daraz.pk/s.0Ajhg?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="accessory">
+      <img src="IMAGES/product-6.jpg" alt="Product 6">
+      <div class="card-body">
+        <h3>Product Title 6</h3>
+        <p class="category">Category: Accessories</p>
+        <p class="price">Rs. 749</p>
+        <p>Small description...</p>
+        <a href="https://s.daraz.pk/s.0A9iC?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="mobile,phone,gadget">
+      <img src="IMAGES/product-7.jpg" alt="Product 7">
+      <div class="card-body">
+        <h3>Product Title 7</h3>
+        <p class="category">Category: Mobile, Phone</p>
+        <p class="price">Rs. 3299</p>
+        <p>Cool phone description...</p>
+        <a href="https://s.daraz.pk/s.0B20I?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="mobile">
+      <img src="IMAGES/product-8.jpg" alt="Product 8">
+      <div class="card-body">
+        <h3>Product Title 8</h3>
+        <p class="category">Category: Mobile</p>
+        <p class="price">Rs. 2899</p>
+        <p>Powerful mobile phone...</p>
+        <a href="https://s.daraz.pk/s.0zJGs?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="mobile,phone,gadget">
+      <img src="IMAGES/product-9.jpg" alt="Product 9">
+      <div class="card-body">
+        <h3>Product Title 9</h3>
+        <p class="category">Category: Mobile, Phone</p>
+        <p class="price">Rs. 4299</p>
+        <p>Smartphone description...</p>
+        <a href="https://s.daraz.pk/s.0AEzN?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+    <div class="card" data-category="mobile,phone,gadget">
+      <img src="IMAGES/product-10.jpg" alt="Product 9">
+      <div class="card-body">
+        <h3>Product Title 10</h3>
+        <p class="category">Category: Mobile, Phone</p>
+        <p class="price">Rs. 4299</p>
+        <p>Smartphone description...</p>
+        <a href="https://s.daraz.pk/s.0AZZi?cc " target="_blank">Buy Now</a>
+      </div>
+    </div>
+    
+    <div class="card" data-category="mobile,phone,gadget">
+      <img src="IMAGES/product-11.jpg" alt="Product 9">
+      <div class="card-body">
+        <h3>Product Title 11</h3>
+        <p class="category">Category: Mobile, Phone</p>
+        <p class="price">Rs. 4299</p>
+        <p>Smartphone description...</p>
+        <a href="https://s.daraz.pk/s.0zJGs?cc" target="_blank">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:example@email.com">example@email.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/123456789">+123456789</a></p>
+    <p>Follow us: <a href="#">Tiktok</a> | <a href="#">Facebook</a></p>
+  </footer>
+
+<script>
+  // Search Function
+  function searchProducts(query) {
+    const cards = document.querySelectorAll('.card');
+    query = query.toLowerCase();
+
+    cards.forEach(card => {
+      const title = card.querySelector('h3').textContent.toLowerCase();
+      const category = card.querySelector('.category').textContent.toLowerCase();
+      const description = card.querySelector('p:nth-of-type(3)').textContent.toLowerCase();
+
+      if (title.includes(query) || category.includes(query) || description.includes(query)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+
+  // Typing Effect
+  const typingText = "Daily Updated Daraz Deals!";
+  const typingEl = document.getElementById("typing");
+  let index = 0;
+
+  function type() {
+    if (index < typingText.length) {
+      typingEl.innerHTML += typingText.charAt(index);
+      index++;
+      setTimeout(type, 100);
+    }
+  }
+
+  window.onload = type;
+  const texts = ["TOP DARAZ DEALS", "BY MALIK SHOAIB"];
+  const speed = 100; // typing speed
+  const eraseSpeed = 50; // erasing speed
+  const delayBetween = 1000; // pause between messages
+  let textIndex = 0;
+  let charIndex = 0;
+  const heading = document.getElementById("typed-heading");
+
+  function type() {
+    if (charIndex < texts[textIndex].length) {
+      heading.textContent += texts[textIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, speed);
+    } else {
+      setTimeout(erase, delayBetween);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      heading.textContent = texts[textIndex].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(erase, eraseSpeed);
+    } else {
+      textIndex = (textIndex + 1) % texts.length;
+      setTimeout(type, speed);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", type);
+</script>
+
+
+
+</body>
+</html>
