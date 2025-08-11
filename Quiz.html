@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Grammar Quiz</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      margin: 0;
+      padding: 20px;
+    }
+    .quiz-container {
+      max-width: 800px;
+      background: #fff;
+      padding: 40px 30px;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .timer {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 25px;
+      font-size: 18px;
+      color: #e91e63;
+    }
+    .question {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      transition: 0.3s ease;
+    }
+    .question:hover {
+      background-color: #f9f9f9;
+    }
+    .question p {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+    .options label:hover {
+      background-color: #eef;
+      padding-left: 5px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      background-color: #3f51b5;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .submit-btn:hover {
+      background-color: #303f9f;
+    }
+    .result {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 800px) {
+      .quiz-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="quiz-container">
+  <h1>Advanced Grammar Quiz</h1>
+  <div class="timer" id="timer">Time left: 90s</div>
+  <form id="quizForm"></form>
+  <button class="submit-btn" id="submitBtn">Submit Answers</button>
+  <div class="result" id="result"></div>
+</div>
+
+<script>
+  const questions = [
+    {
+      question: "1. Which sentence is correct?",
+      options: {
+        A: "He go to school every day.",
+        B: "He goes to school every day.",
+        C: "He going to school every day."
+      },
+      correct: "B"
+    },
+    {
+      question: "2. Choose the correct use of 'effect' or 'affect'.",
+      options: {
+        A: "The news will effect him deeply.",
+        B: "The news will affect him deeply.",
+        C: "The news will be affect him deeply."
+      },
+      correct: "B"
+    },
+    {
+      question: "3. Which is correct?",
+      options: {
+        A: "Whom is going to the party?",
+        B: "Who is going to the party?",
+        C: "Who's going the party to?"
+      },
+      correct: "B"
+    },
+    {
+      question: "4. Identify the adverb:",
+      options: {
+        A: "Happy",
+        B: "Happily",
+        C: "Happiness"
+      },
+      correct: "B"
+    },
+    {
+      question: "5. Which is the antonym of 'brave'?",
+      options: {
+        A: "Courageous",
+        B: "Fearful",
+        C: "Bold"
+      },
+      correct: "B"
+    },
+    {
+      question: "6. Which sentence is grammatically correct?",
+      options: {
+        A: "She don't like tea.",
+        B: "She doesn't like tea.",
+        C: "She didn't liked tea."
+      },
+      correct: "B"
+    },
+    {
+      question: "7. Select the adjective:",
+      options: {
+        A: "Quick",
+        B: "Quickly",
+        C: "Quicker"
+      },
+      correct: "A"
+    },
+    {
+      question: "8. Which sentence uses 'whom' correctly?",
+      options: {
+        A: "To whom did you speak?",
+        B: "Who did you give the book to?",
+        C: "Who are you calling?"
+      },
+      correct: "A"
+    },
+    {
+      question: "9. Choose the correct sentence:",
+      options: {
+        A: "She sings beautiful.",
+        B: "She sings beautifully.",
+        C: "She singing beautifully."
+      },
+      correct: "B"
+    },
+    {
+      question: "10. Which of the following is a synonym of 'huge'?",
+      options: {
+        A: "Tiny",
+        B: "Massive",
+        C: "Small"
+      },
+      correct: "B"
+    }
+  ];
+
+  const quizForm = document.getElementById('quizForm');
+  const result = document.getElementById('result');
+  const submitBtn = document.getElementById('submitBtn');
+  const timerDisplay = document.getElementById('timer');
+
+  // Load Questions
+  questions.forEach((q, index) => {
+    const qDiv = document.createElement('div');
+    qDiv.classList.add('question');
+    qDiv.innerHTML = `<p>${q.question}</p>`;
+    for (const key in q.options) {
+      qDiv.innerHTML += `
+        <label>
+          <input type="radio" name="q${index}" value="${key}" />
+          ${key}) ${q.options[key]}
+        </label>
+      `;
+    }
+    quizForm.appendChild(qDiv);
+  });
+
+  // Timer
+  let timeLeft = 90;
+  const timer = setInterval(() => {
+    timeLeft--;
+    timerDisplay.textContent = `Time left: ${timeLeft}s`;
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      submitQuiz();
+    }
+  }, 1000);
+
+  // Submit Handler
+  submitBtn.addEventListener('click', function () {
+    clearInterval(timer);
+    submitQuiz();
+  });
+
+  function submitQuiz() {
+    let score = 0;
+    questions.forEach((q, index) => {
+      const selected = document.querySelector(`input[name="q${index}"]:checked`);
+      if (selected && selected.value === q.correct) {
+        score++;
+      }
+    });
+    const percentage = Math.round((score / questions.length) * 100);
+    result.textContent = `🎉 You scored ${score}/${questions.length} (${percentage}%)`;
+    result.style.color = percentage >= 80 ? 'green' : 'red';
+    submitBtn.disabled = true;
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,2202 @@
+[
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q1)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q2)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q3)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q4)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q5)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q6)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q7)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q8)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q9)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q10)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q11)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q12)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q13)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q14)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q15)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q16)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q17)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q18)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q19)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q20)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q21)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q22)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q23)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q24)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q25)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q26)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q27)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q28)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q29)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q30)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q31)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q32)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q33)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q34)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q35)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q36)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q37)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q38)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q39)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q40)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q41)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q42)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q43)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q44)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q45)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q46)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q47)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q48)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q49)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q50)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q51)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q52)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q53)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q54)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q55)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q56)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q57)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q58)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q59)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q60)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q61)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q62)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q63)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q64)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q65)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q66)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q67)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q68)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q69)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q70)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q71)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q72)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q73)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q74)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q75)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q76)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q77)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q78)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q79)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q80)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q81)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q82)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q83)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q84)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q85)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q86)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q87)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q88)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q89)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q90)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q91)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q92)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q93)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q94)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q95)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q96)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q97)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q98)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q99)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q100)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q101)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q102)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q103)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q104)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q105)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q106)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q107)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q108)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q109)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q110)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q111)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q112)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q113)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q114)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q115)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q116)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q117)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q118)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q119)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q120)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q121)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q122)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q123)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q124)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q125)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q126)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q127)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q128)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q129)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q130)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q131)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q132)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q133)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q134)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q135)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q136)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q137)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q138)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q139)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q140)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q141)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q142)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q143)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q144)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q145)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q146)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q147)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q148)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q149)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q150)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q151)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q152)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q153)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q154)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q155)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q156)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q157)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q158)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q159)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q160)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q161)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q162)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q163)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q164)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q165)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q166)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q167)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q168)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q169)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q170)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q171)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q172)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q173)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q174)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q175)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q176)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q177)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q178)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q179)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q180)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q181)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q182)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q183)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q184)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q185)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q186)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q187)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q188)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q189)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q190)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q191)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q192)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q193)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "What is 'stall' in aviation? (Q194)",
+    "options": [
+      "Engine failure",
+      "Loss of lift",
+      "Fuel exhaustion",
+      "Brake malfunction"
+    ],
+    "answer": 1,
+    "explanation": "A stall happens when the wing no longer produces sufficient lift."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q195)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "What is the purpose of the 'black box' in an aircraft? (Q196)",
+    "options": [
+      "Entertainment system controller",
+      "Weather monitoring device",
+      "Flight data and cockpit voice recorder",
+      "GPS signal booster"
+    ],
+    "answer": 2,
+    "explanation": "The black box records flight data and cockpit audio for investigation after incidents."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q197)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  },
+  {
+    "question": "What does 'ATC' stand for in aviation? (Q198)",
+    "options": [
+      "Airline Traffic Control",
+      "Air Traffic Control",
+      "Aircraft Technical Crew",
+      "Altitude Target Code"
+    ],
+    "answer": 1,
+    "explanation": "ATC stands for Air Traffic Control, which manages aircraft movement in controlled airspace."
+  },
+  {
+    "question": "Which instrument measures aircraft altitude? (Q199)",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Turn Coordinator",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "An altimeter measures how high the aircraft is above sea level."
+  },
+  {
+    "question": "Which of these affects lift on an aircraft wing? (Q200)",
+    "options": [
+      "Wing shape",
+      "Engine size",
+      "Tail fin size",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing shape determines how air flows over it, affecting lift."
+  }
+]
